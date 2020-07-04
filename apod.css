@@ -1,0 +1,56 @@
+body{ 
+    padding: 0; 
+    margin: 0;
+    background-color: #c0dae4;
+    text-align: center;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: #008891;
+    align-items: center;
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+   display: flex;
+   font-family: 'Righteous', cursive;
+   font-weight: bold; 
+   color: #092c57;
+   font-size: 40px;
+}
+
+#data{
+    display: flex;
+    justify-content: center;
+    color: #00587a;
+    font-family: 'Righteous', cursive;
+    font-weight: bold; 
+    margin-top: 60px;   
+}
+
+#imagem{
+    height: 60%;
+    width: 60%;
+    
+}
+
+#rodape{
+    font-family: 'ABeeZee', sans-serif;
+    color: #092c57;
+    font-weight: bold; 
+}
+
+#legenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ABeeZee', sans-serif;
+    color: #092c57;
+    padding: 40px;
+}
