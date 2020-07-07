@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    background: #008891;
+    background-image: url("ceu.gif");
     align-items: center;
     line-height: 30px;
     width: 100%;
@@ -21,9 +21,14 @@ h1 {
    display: flex;
    font-family: 'Righteous', cursive;
    font-weight: bold; 
-   color: #092c57;
+   color: #e7f6f8;
    font-size: 40px;
 }
+
+#diaMes{
+    margin-left: 100px;
+}
+   
 
 #data{
     display: flex;
@@ -54,3 +59,4 @@ h1 {
     color: #092c57;
     padding: 40px;
 }
+

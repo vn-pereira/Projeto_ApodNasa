@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture Of The Day</title>
     <link rel="stylesheet" href="apod.css">
+    <link rel="shortcut icon" type="image/x-icon" href="planeta.png">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <script src="api.js" defer></script>  
+    <script src="reqForm.js" defer></script> 
 
 </head>
 
     <body>
         
-        <header>
+        <header class= "cabeçalho">
+            
             <h1> Picture Of The Day </h1>
+            
+            <form id="diaMes" method="GET">
+                <input type=date id="calendario" class="inputData">
+                <button id="botaoEnviar" class="botaoData" onclick="">Enviar</button>
+            </form>
+
         </header>
         
         <p id = "data"></p>

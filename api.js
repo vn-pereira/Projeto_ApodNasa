@@ -1,3 +1,6 @@
+//let dataEscolha = document.getElementById('calendario');
+//let botao = document.getElementById('botaoEnviar');
+
 let apod = new XMLHttpRequest(); // criando o obj que faz a requisição
 apod.open("GET", 'https://api.nasa.gov/planetary/apod?api_key=iVkNoOjEOuexT2chsygtVGsKxwFgH1SoWzoPkBOz'); //abrindo req
 
@@ -8,13 +11,13 @@ apod.open("GET", 'https://api.nasa.gov/planetary/apod?api_key=iVkNoOjEOuexT2chsy
                 console.log(objeto.copyright);
         
             let data = document.getElementById('data');
-            data.innerText = ` Data ${objeto.date}`;
+            data.innerText = `Data ${objeto.date}`;
 
             let foto = document.getElementById('imagem');
             foto.src = objeto.url;
         
             let rodape = document.getElementById('rodape');
-            rodape.innerText = `Image Credit & Copyright: ${objeto.copyright}`
+            rodape.innerText = `Image Credit & Copyright: ${objeto.copyright}`;
 
             let legenda = document.getElementById('legenda');
             legenda.innerText = objeto.explanation;
