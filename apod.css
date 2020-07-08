@@ -11,7 +11,6 @@ header{
     justify-content: center;
     background-image: url("ceu.gif");
     align-items: center;
-    line-height: 30px;
     width: 100%;
     height: 100%;
 
@@ -25,10 +24,26 @@ h1 {
    font-size: 40px;
 }
 
-#diaMes{
+.Datainput{
     margin-left: 100px;
 }
    
+#calendario{
+    background-color: #b7dee4;
+    font-family: 'Righteous', cursive;
+    border: none;
+
+}
+
+.botaoData{
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    color: rgb(40, 95, 177);
+    transition: 0.5s;
+}
 
 #data{
     display: flex;

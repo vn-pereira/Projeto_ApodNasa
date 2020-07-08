@@ -8,8 +8,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="planeta.png">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-    <script src="api.js" defer></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="reqForm.js" defer></script> 
+    <script src="api.js" defer></script>  
+    
 
 </head>
 
@@ -19,14 +21,15 @@
             
             <h1> Picture Of The Day </h1>
             
-            <form id="diaMes" method="GET">
-                <input type=date id="calendario" class="inputData">
-                <button id="botaoEnviar" class="botaoData" onclick="">Enviar</button>
-            </form>
-
+            <div class="Datainput"> 
+                <input type = date id="calendario" class="inputData">
+                <button type = "submit" id="botaoEnviar" class="botaoData" onclick=""> Enviar <i class="fa fa-search"></i></button>
+            </div>
         </header>
         
         <p id = "data"></p>
+
+        <!--!<iframe id= video></iframe>-->
         <img id ="imagem">
         <div id ="rodape"></div>
         <div id="legenda"></div>
